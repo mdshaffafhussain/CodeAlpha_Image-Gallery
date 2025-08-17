@@ -64,12 +64,3 @@ Arrow Left ← Previous Image
 Esc Close Lightbox
 ---
 
-## 📸 UI Preview
-
-
----
-
-
-
----
-
