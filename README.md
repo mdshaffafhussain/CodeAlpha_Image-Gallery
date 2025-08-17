@@ -40,6 +40,10 @@ Subtle fade-in animations using Intersection Observer.
 Elegant gradient overlays with captions & tags.
 
 
+## 📬 Contact Information
+
+- 📧 Email: 0231ite211@niet.co.in
+- 🔗 LinkedIn: www.linkedin.com/in/md-shaffaf-hussain-67693a2a3
 
 ## 🗂️ Folder Structure
 
