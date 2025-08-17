@@ -1,53 +1,67 @@
 # CodeAlpha_Image-Gallery
 
-# 📱 Calculator Web App
+# 📸 Responsive Image Gallery
 
-A stylish and responsive web-based calculator built with **HTML**, **CSS**, and **JavaScript**
-
----
-
-## 🔧 Features
-
-- Basic arithmetic operations: `+`, `-`, `×`, `÷`
-- Clear (`C`), Delete (`⌫`), and Equal (`=`)
-- Decimal point support
-- Responsive design with blur-glass effect
-- **Keyboard support** (e.g., `Enter`, `Backspace`, number & operator keys)
+A fully responsive image gallery built with HTML, CSS, and JavaScript featuring:
 
 ---
+✅ Lightbox view with keyboard & button navigation
+✅ Category-based filtering (Nature, City, Animals, All)
+✅ Smooth hover effects & transitions
+✅ Responsive grid layout
+---
+Features
+Responsive Design
+
+Uses CSS Grid for a flexible gallery layout.
+
+Automatically adapts to different screen sizes (desktop, tablet, mobile).
+
+Lightbox Mode
+
+Opens images in a full-screen modal.
+
+Navigation with Next/Prev buttons or keyboard arrows.
+
+Close with Esc key, button, or clicking outside.
+
+Filters & Categories
+
+Users can filter images by Nature, City, Animals, or All.
+
+Active filter is visually highlighted.
+
+Animations & Effects
+
+Smooth hover zoom on images.
+
+Subtle fade-in animations using Intersection Observer.
+
+Elegant gradient overlays with captions & tags.
+
+
 
 ## 🗂️ Folder Structure
 
 ```
-calculator/
-│
-├── index.html         # Main HTML file
-├── style.css          # Styling with glassmorphism
-├── script.js          # JavaScript functionality
-└── assets/
-    └── bg.jpg         # Background image
+.
+├── index.html   # Main file (HTML + CSS + JS inlined)
+├── images/      # Local images referenced in gallery
+
 ```
 
----
 
 
-2. **Open `index.html` in your browser**
-
-   > No additional setup required – works offline with local files.
 
 ---
 
-## 🖥️ Keyboard Shortcuts Supported
+🎮 Keyboard Shortcuts
 
-| Key         | Action              |
-|-------------|---------------------|
-| Numbers 0–9 | Input digits        |
-| `+ - * /`   | Operators           |
-| `.`         | Decimal point       |
-| `Enter` / `=` | Calculate result |
-| `Backspace` | Delete last digit   |
-| `Delete`    | Clear all           |
+Arrow Right → Next Image
 
+Arrow Left ← Previous Image
+
+Esc Close Lightbox
 ---
 
 ## 📸 UI Preview
